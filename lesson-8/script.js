@@ -1,13 +1,19 @@
- 
+//  h-1
 let str ='Open Web Academy '
 function repeatStr(){
   return str.repeat(15)
 }
 console.log(repeatStr())
 
+// h-2
+let str = 'mirabror'
+function firstUpperStr(name){
+  console.log(name[0].toUpperCase()+name.substring(1));
+}
+firstUpperStr(str)
 
 
-
+// h-3
 let str='8600123456789123'
 
 function getCriditCard(num){
@@ -24,15 +30,6 @@ console.log('Karta raqam xato kiritildi')
 }
 getCriditCard(str)
 
-
-
-
-
-let str = 'mirabror'
-function firstUpperStr(name){
-  console.log(name[0].toUpperCase()+name.substring(1));
-}
-firstUpperStr(str)
 
 
 
